@@ -1,0 +1,56 @@
+/* Show it's not fixed to the top */
+body {
+    min-height: 75rem;
+  }
+  
+  .banner-region {
+    background-color: blue;
+    color: #fff; /* #ffffff, white */
+    padding: 0px;
+  }
+  
+  .banner-region2 {
+    background-color: purple;
+    color: #fff; /* #ffffff, white */
+  }
+  
+  .fb-300 {
+    float:left;
+    width:300px;
+    border: 1px solid black;
+    height:200px;
+    margin-left:20px;
+  }
+  
+  .clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+.navbar {
+    background: #C00000;
+}
+
+.outlines{
+    outline: solid #C00000;
+}
+
+.row1col1{
+    background-color: #ffc1c1;
+}
+.row1col2{
+    background-color: #ffdfdf;
+}
+.row1col3{
+    background-color: #ffc1c1;
+}
+.row2col1{
+    background-color: #ffdfdf;
+}
+.row2col2{
+    background-color: #ffc1c1;
+}
+.row2col3{
+    background-color: #ffdfdf;
+}
